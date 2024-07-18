@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Dog Party starter kit using webpack.",
   "main": "index.js",
+  "homepage": "http://ZTFitru.github.io/dog-party",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZTFitru/dog-party.git"
+  },
   "scripts": {
     "start": "webpack server",
     "build": "webpack"
@@ -17,6 +22,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "html-webpack-plugin": "^5.6.0",
     "webpack": "^5.90.0",
     "webpack-cli": "^5.1.4"
