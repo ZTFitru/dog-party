@@ -10,7 +10,9 @@
   },
   "scripts": {
     "start": "webpack server",
-    "build": "webpack"
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Turing School of Software and Design",
   "license": "MIT",
